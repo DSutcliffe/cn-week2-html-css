@@ -1,0 +1,119 @@
+body{
+    /* background-color: skyblue; */
+}
+.bird{
+    position: absolute;
+    top:200px;
+    left:80px;
+    transform: scale(1);
+    animation-name: birdy;
+    animation-duration: 5s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+}
+@keyframes birdy{
+   from{transform: translateX(80px)}
+   to{transform: translateX(1500px)}
+}
+.bird1{
+    position: absolute;
+    top:450px;
+    left:200px;
+   
+    animation-name: bird1;
+    animation-duration: 5s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+}
+@keyframes bird1{
+    from{transform: translateX(200px)}
+    to{transform: translateX(1500px)};
+}
+
+.name,.btn-position{
+    position: absolute;
+    left:650px;
+    top: 200px;
+}
+.name,.btn-style{
+    width:150px;
+    padding:10px;
+    font-family:sans-serif;
+    font-size: 25px;
+    text-align: center;
+    text-decoration: none;
+    background-color:plum;
+    color: white;
+    border-radius: 15px;
+}
+.name:hover{
+    filter: invert(100%);
+}
+.name:hover{
+    transform: rotate(360deg);
+    transition: all 5s;
+}
+.name:active{
+    background-color: #f1c40f;
+}
+.name:visited{
+    background-color: #2ecc71;
+}
+
+.code{
+    position: absolute;
+    left:300px;
+    top: 300px;
+}
+.code:hover{
+    opacity: 0.7;
+}
+
+.facebook{
+    position: absolute;
+    left:300px;
+    top:80px;
+    box-shadow: #2ecc71;  
+}
+.facebook,.active{
+    background: blue;
+}
+.facebook:visited{
+    background-color: palevioletred;
+}
+   
+.facebook:hover{
+    transform: rotate(360deg);
+    transition: all 1.5s;
+    box-shadow: 10px 10px 5px palevioletred;
+}
+/*.facebook-pic{
+    border-radius: 100px;
+}*/
+    
+.twitter{
+    position: absolute;
+    right:300px;
+    top:300px;
+    padding-bottom: 10;
+    animation-name: example;
+    animation-duration: 4s;
+}
+@keyframes example {
+    from{transform: translateX(300px)}
+    to{transform: translateY(100px)}     
+}
+
+.instagram{
+    position: absolute;
+    right:300px;
+    top:80px;
+}
+.instagram:hover{
+    box-shadow: 10px 10px 5px blue;
+}
+
+.twitter-pic{
+    border-radius: 50px;
+}
+    

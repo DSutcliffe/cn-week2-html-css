@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed&display=swap');
+
+/* set whole page in '*' */
+/* set global values */
+/* * {
+    box-sizing: border-box;
+    padding: 25px 50px 75px 100px
+} */
+
+body {
+    background-color: aquamarine;
+}
+
+/* make following changes when width > 921px */
+@media (min-width: 921px){
+    body{
+        background-color : yellow;
+    }
+    .cols > .three-cols{
+        width: 33.3333%;
+        float: left;
+    }
+}
+
+/* id's */
+#abc {
+    background-color: black;
+    color: chocolate;
+    /* width: 200px; */
+    /* width: 50%; */
+    /* width: length; */
+    width: auto;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 500%;
+    font-style: italic;
+    font-weight: 600;
+
+    /* PADDING */
+    /* Apply to all sides */
+    /* padding: 10px; */
+    
+    /* Topp & Bottom */
+    /* padding: 100px 100px; */
+
+    /* Top, Left & Right, Bottom */
+    /* padding: 50px 100px 200px; */
+    
+    /* Top, Right, Bottom, Left */
+    padding: 10px 20px 30px 40px;
+}
+
+/* classes */
+.xyz {
+    background-color: darkgreen;
+    color: darkblue;
+    font-family: 'Roboto Condensed', sans-serif;    /* imported google font */
+}
+
+.makeMeRed {
+    color: red;
+}
+.char1{
+    font-family: 'Courier New', Courier, monospace;
+}
+.char2{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+

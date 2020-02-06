@@ -1,0 +1,15 @@
+.animation img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.animation img:hover {
+    animation: whatICalledKeyframes 3s linear infinite;
+}
+
+@keyframes whatICalledKeyframes {
+    100% {
+        transform: rotate(360deg);
+    }
+}
